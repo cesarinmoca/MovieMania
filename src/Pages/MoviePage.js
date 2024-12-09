@@ -102,7 +102,7 @@ const MoviePage = () => {
               <div>
                 {trailer ? null : (
                   <h1 style={{ color: "white" }}>
-                    "Una disculpa, No se pudo encontrar un trailer"
+                    "Trailer no disponinble"
                   </h1>
                 )}
               </div>

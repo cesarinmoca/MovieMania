@@ -13,3 +13,21 @@ const requests = {
 };
 
 export default requests;
+
+// For You
+// https://api.themoviedb.org/3/movie/447365/recommendations?api_key=52abd33f37ed4adae2df8ac3891c2bbb
+
+// Top Rated
+// https://api.themoviedb.org/3/movie/top_rated?api_key=52abd33f37ed4adae2df8ac3891c2bbb&language=es-MX
+
+// Trending
+// https://api.themoviedb.org/3/discover/movie?api_key=52abd33f37ed4adae2df8ac3891c2bbb&sort_by=popularity.desc&language=es-MX
+
+// Action Movies
+// https://api.themoviedb.org/3/discover/movie?api_key=52abd33f37ed4adae2df8ac3891c2bbb&with_genres=28&language=es-MX
+
+// Horror Movies
+// https://api.themoviedb.org/3/discover/movie?api_key=52abd33f37ed4adae2df8ac3891c2bbb&with_genres=27&language=es-MX
+
+// Recommendation based on specific movie
+// https://api.themoviedb.org/3/movie/640146/recommendations?api_key=52abd33f37ed4adae2df8ac3891c2bbb

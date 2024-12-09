@@ -12,7 +12,7 @@ const Home = () => {
         <Header/>
         <Banner/>
         {/* <Rows title='NETFLIX ORIGINALS' fetchUrl={requests.fetchNetflixOriginals} isLargeRow/> */}
-        <Rows title='For you' fetchUrl={`https://api.themoviedb.org/3/movie/${auth?.currentUser?.email === "eliam@mail.com"? 493529 : 447365 }"/recommendations?api_key=52abd33f37ed4adae2df8ac3891c2bbb`}/>
+        <Rows title='For you' fetchUrl={`https://api.themoviedb.org/3/movie/${auth?.currentUser?.email === "@gmail.com"? 493529 : 447365 }"/recommendations?api_key=52abd33f37ed4adae2df8ac3891c2bbb`}/>
         <Rows title='Top Rated' fetchUrl={requests.fetchTopRated}/> 
         <Rows title='Trending' fetchUrl={requests.fetchTrending}/>
         <Rows title='Action Movies' fetchUrl={requests.fetchActionMovies}/>
